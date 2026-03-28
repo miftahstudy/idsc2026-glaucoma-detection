@@ -3,7 +3,7 @@
 Deep learning-based screening and triage-support system for detecting glaucomatous optic neuropathy (GON) from retinal fundus images using the Hillel Yaffe Glaucoma Dataset (HYGD).
 
 Developed for **International Data Science Challenge (IDSC) 2026**  
-Theme: **Mathematics for Hope in Healthcare**
+Theme: **Mathematics for Hope in Healthcare**  
 Team: **Hustle Fèndòu**
 
 ---
