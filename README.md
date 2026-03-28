@@ -61,7 +61,9 @@ Labels: GON+ / GON−
 
 Labels are based on OCT, visual field tests, and clinical follow-up.
 
-🏗️ System Design
+---
+
+## 🏗️ System Design
 
 The system transforms a classification model into a clinical decision support tool:
 
@@ -70,14 +72,20 @@ Deep learning classification model
 Probability-based risk scoring
 Grad-CAM interpretability
 Threshold-based triage system
-🔒 Data Splitting Strategy
+
+---
+
+## 🔒 Data Splitting Strategy
 
 A strict patient-level split is used:
 
 prevents data leakage
 ensures realistic evaluation
 avoids same-patient bias
-🤖 Model Architecture
+
+---
+
+## 🤖 Model Architecture
 Backbone: ResNet18 (ImageNet pretrained)
 Output: Binary classification (GON+ / GON−)
 Activation: Sigmoid
@@ -87,11 +95,17 @@ Chosen for:
 stability
 efficiency
 deployability
-⚙️ Training Strategy
+
+---
+
+## ⚙️ Training Strategy
 Loss: Binary Cross Entropy with Logits
 Optimizer: Adam
 Lightweight training setup (CPU/GPU friendly)
-📈 Performance
+
+---
+
+## 📈 Performance
 
 Evaluated on a held-out patient-level test set:
 
@@ -103,7 +117,9 @@ F1-score: 0.9615
 
 High sensitivity ensures safe screening performance.
 
-🔍 Interpretability (Grad-CAM)
+---
+
+## 🔍 Interpretability (Grad-CAM)
 
 Grad-CAM is used to visualize model attention:
 
@@ -115,13 +131,19 @@ Supports:
 transparency
 clinical trust
 model validation
-🧠 Risk Stratification
+
+---
+
+## 🧠 Risk Stratification
 Category	Probability Range
 High Risk	p ≥ 0.85
 Moderate Risk	0.50 ≤ p < 0.85
 Borderline	0.35 ≤ p < 0.50
 Low Risk	p < 0.35
-⚠️ Uncertainty Handling
+
+---
+
+## ⚠️ Uncertainty Handling
 Default threshold: 0.5
 Adjustable for sensitivity vs specificity
 
@@ -129,27 +151,39 @@ Borderline predictions:
 
 require manual review
 may require re-imaging
-🏥 Clinical Workflow Integration
+
+---
+
+## 🏥 Clinical Workflow Integration
 Fundus image captured
 Model predicts probability
 Patient categorized:
 High-risk → urgent referral
 Borderline → further review
 Low-risk → routine monitoring
-📊 Streamlit App Features
-🔍 Prediction
+
+---
+
+## 📊 Streamlit App Features
+### 🔍 Prediction
 Upload retinal image
 Probability prediction
 Risk category
 Clinical recommendation
 Grad-CAM visualization
 Quality warnings
-📈 EDA & Insights
+
+---
+
+### 📈 EDA & Insights
 Dataset distribution
 Patient statistics
 Image quality analysis
 Sample visualization
-🧪 Quality-Aware Warnings
+
+---
+
+## 🧪 Quality-Aware Warnings
 
 Heuristic image quality checks:
 
@@ -163,9 +197,11 @@ Good
 Fair
 Poor
 
-⚠️ Not clinically validated — used as support only.
+## ⚠️ Not clinically validated — used as support only.
 
-📂 Repository Structure
+---
+
+## 📂 Repository Structure
 .
 ├── app.py
 ├── README.md
@@ -177,18 +213,27 @@ Poor
 ├── outputs/
 │
 └── src/
-🔁 Reproducibility
+
+---
+
+## 🔁 Reproducibility
 python src/split.py
 python src/train.py
 python src/eval.py
 python src/gradcam.py
-⚠️ Limitations
+
+---
+
+## ⚠️ Limitations
 Small dataset (747 images)
 Single-center data
 Binary classification only
 No external validation
 Heuristic quality module
-🌟 Design Philosophy
+
+---
+
+## 🌟 Design Philosophy
 
 Practical, interpretable, and deployable
 
@@ -197,17 +242,21 @@ This system prioritizes:
 robustness
 simplicity
 real-world usability
-📚 Citation
+
+---
+
+## 📚 Citation
 Dataset (HYGD)
 
-Abramovich et al., 2025
-https://doi.org/10.13026/z0ak-km33
+Abramovich, O., Pizem, H., Fhima, J., Berkowitz, E., Gofrit, B., Van Eijgen, J., Blumenthal, E., & Behar, J. (2025). Hillel Yaffe Glaucoma Dataset (HYGD): A Gold-Standard Annotated Fundus Dataset for Glaucoma Detection (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/z0ak-km33
 
-PhysioNet
+Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220. RRID:SCR_007345.
 
-Goldberger et al., 2000
+Abramovich, O., et al. (2025). GONet: A Generalizable Deep Learning Model for Glaucoma Detection. arXiv.
 
-⚠️ Disclaimer
+---
+
+## ⚠️ Disclaimer
 
 This project is for research and competition purposes only.
 It is not a medical diagnostic tool and should not replace professional clinical judgment.
