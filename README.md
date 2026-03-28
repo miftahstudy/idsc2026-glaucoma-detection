@@ -6,7 +6,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge)
 ![Medical AI](https://img.shields.io/badge/Domain-Medical%20AI-teal?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Research-blueviolet?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </p>
