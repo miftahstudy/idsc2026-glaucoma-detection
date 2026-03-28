@@ -48,6 +48,21 @@ This project aims to bridge that gap by providing a **deployable AI-based screen
 
 ---
 
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/miftahstudy/idsc2026-glaucoma-detection.git
+cd idsc2026-glaucoma-detection
+
+pip install -r requirements.txt
+
+python src/split.py
+python src/train.py
+python src/eval.py
+
+streamlit run app.py
+```
+
 ## 🏗️ System Design
 
 The system consists of:
