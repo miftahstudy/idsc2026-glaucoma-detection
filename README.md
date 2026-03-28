@@ -35,6 +35,19 @@ This project aims to bridge that gap by providing a **deployable AI-based screen
 
 ---
 
+### 📷 Sample Fundus Images
+
+<p align="center">
+  <img src="images/gon_positive.jpg" width="300"/>
+  <img src="images/gon_negative.jpg" width="300"/>
+</p>
+
+<p align="center">
+  <em>Left: GON+ | Right: GON-</em>
+</p>
+
+---
+
 ## 📊 Dataset
 
 - **Dataset:** Hillel Yaffe Glaucoma Dataset (HYGD) v1.0.0
@@ -85,6 +98,16 @@ This design transforms a classification model into a **clinically usable decisio
 
 ---
 
+## 🖼️ System Demonstration
+
+### 🔍 Application Interface
+<p align="center">
+  <img src="images/app.jpg" width="650"/>
+</p>
+
+---
+
+
 ## 🔒 Data Splitting Strategy (Critical)
 
 We apply a strict **patient-level split** to prevent data leakage.
@@ -132,6 +155,24 @@ These results demonstrate strong discriminative ability while maintaining **high
 
 ---
 
+## 📊 Model Evaluation
+
+### 🔢 Confusion Matrix
+
+<p align="center">
+  <img src="images/confusion_matrix.jpg" width="400"/>
+</p>
+
+---
+
+### 📈 ROC Curve
+
+<p align="center">
+  <img src="images/roc_curve.jpg" width="400"/>
+</p>
+
+---
+
 ## 🔍 Interpretability (Grad-CAM)
 
 Grad-CAM is used to visualize model attention:
@@ -144,6 +185,19 @@ Supports:
 - transparency
 - clinical trust
 - validation of learned features
+
+---
+
+### 🔥 Fundus & Grad-CAM Visualization
+
+<p align="center">
+  <img src="images/fundus.jpg" width="300"/>
+  <img src="images/gradcam.jpg" width="300"/>
+</p>
+
+<p align="center">
+  <em>Left: Fundus Image | Right: Grad-CAM Attention Map</em>
+</p>
 
 ---
 
@@ -334,6 +388,41 @@ streamlit run app.py
 - Patient statistics
 - Quality analysis
 - Sample images
+
+## 📊 Exploratory Data Analysis (EDA)
+
+### 📌 Dataset Overview
+
+| Metric | Value |
+|------|------|
+| Total Images | 747 |
+| Total Patients | 288 |
+| GON+ | 548 |
+| GON- | 199 |
+
+---
+
+### 📈 Data Distribution
+
+<p align="center">
+  <img src="images/label_distribution.jpg" width="250"/>
+  <img src="images/images_per_patient.jpg" width="250"/>
+  <img src="images/quality_score_distribution.jpg" width="250"/>
+</p>
+
+<p align="center">
+  <em>Label Distribution | Images per Patient | Quality Score Distribution</em>
+</p>
+
+---
+
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="[https://your-video-link-here.com](https://youtu.be/Pe9CuJRtpY4)">
+    <img src="https://img.shields.io/badge/▶%20Watch%20Demo-blue?style=for-the-badge"/>
+  </a>
+</p>
 
 ---
 
