@@ -63,6 +63,8 @@ python src/eval.py
 streamlit run app.py
 ```
 
+---
+
 ## 🏗️ System Design
 
 The system consists of:
