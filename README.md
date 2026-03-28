@@ -4,6 +4,7 @@ Deep learning-based screening and triage-support system for detecting glaucomato
 
 Developed for **International Data Science Challenge (IDSC) 2026**  
 Theme: **Mathematics for Hope in Healthcare**
+Team: **Hustle Fèndòu**
 
 ---
 
