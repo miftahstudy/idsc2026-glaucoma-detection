@@ -405,9 +405,9 @@ streamlit run app.py
 ### 📈 Data Distribution
 
 <p align="center">
-  <img src="images/label_distribution.jpg" width="250"/>
-  <img src="images/images_per_patient.jpg" width="250"/>
-  <img src="images/quality_score_distribution.jpg" width="250"/>
+  <img src="images/label_distribution.png" width="250"/>
+  <img src="images/images_per_patient.png" width="250"/>
+  <img src="images/quality_score_distribution.png" width="250"/>
 </p>
 
 <p align="center">
