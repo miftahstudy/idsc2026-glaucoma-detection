@@ -247,13 +247,21 @@ This repository contains an end-to-end pipeline for glaucoma screening:
 ## ⚙️ Installation
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+# Clone repository
+git clone https://github.com/miftahstudy/idsc2026-glaucoma-detection.git
+cd idsc2026-glaucoma-detection
 
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
 
+# Activate environment
+# Linux / macOS
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
