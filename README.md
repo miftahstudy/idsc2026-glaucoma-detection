@@ -378,6 +378,7 @@ Ensure the HYGD dataset is placed in `data/`.
 
 ---
 
+
 ## 📚 Citation
 
 If you use this project or the dataset, please cite the following:
@@ -388,11 +389,13 @@ Abramovich, O., Pizem, H., Fhima, J., Berkowitz, E., Gofrit, B., Van Eijgen, J.,
 
 ---
 
+
 ### PhysioNet Platform Citation
 
 Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220. RRID:SCR_007345.
 
 ---
+
 
 ### Additional Reference
 
@@ -400,8 +403,10 @@ Abramovich, Or, et al. (2025) “GONet: A Generalizable Deep Learning Model for 
 
 ---
 
+
 ## ⚠️ Disclaimer
 
 This project is developed for research and competition purposes only.  
-It is not intended to replace professional medical diagnosis or clinical decision-making.#   i d s c 2 0 2 6 - g l a u c o m a - d e t e c t i o n  
+It is not intended to replace professional medical diagnosis or clinical decision-making.#   i d s c 2 0 2 6 - g l a u c o m a - d e t e c t i o n 
+ 
  
