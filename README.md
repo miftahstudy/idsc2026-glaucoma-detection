@@ -418,11 +418,7 @@ streamlit run app.py
 
 ## 🎥 Demo Video
 
-<p align="center">
-  <a href="[https://your-video-link-here.com](https://youtu.be/Pe9CuJRtpY4)">
-    <img src="https://img.shields.io/badge/▶%20Watch%20Demo-blue?style=for-the-badge"/>
-  </a>
-</p>
+[![Watch Demo](https://img.youtube.com/vi/Pe9CuJRtpY4/0.jpg)](https://www.youtube.com/watch?v=Pe9CuJRtpY4)
 
 ---
 
