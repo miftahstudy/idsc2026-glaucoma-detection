@@ -46,6 +46,11 @@ This project aims to bridge that gap by providing a **deployable AI-based screen
 
 > Labels are based on comprehensive ophthalmic examinations (OCT, visual field tests, and follow-up), ensuring high clinical reliability.
 
+
+The HYGD dataset is not included in this repository due to size limitations.
+
+Please download it from PhysioNet and place it in the `data/` directory.
+
 ---
 
 ## ⚡ Quick Start
