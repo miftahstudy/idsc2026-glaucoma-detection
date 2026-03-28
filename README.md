@@ -38,8 +38,8 @@ This project aims to bridge that gap by providing a **deployable AI-based screen
 ### 📷 Sample Fundus Images
 
 <p align="center">
-  <img src="images/gon_positive.jpg" width="300"/>
-  <img src="images/gon_negative.jpg" width="300"/>
+  <img src="images/sample_gon_positive.jpg" width="300"/>
+  <img src="images/sample_gon_negative.jpg" width="300"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ This design transforms a classification model into a **clinically usable decisio
 
 ### 🔍 Application Interface
 <p align="center">
-  <img src="images/app.jpg" width="650"/>
+  <img src="images/app.png" width="650"/>
 </p>
 
 ---
@@ -160,7 +160,7 @@ These results demonstrate strong discriminative ability while maintaining **high
 ### 🔢 Confusion Matrix
 
 <p align="center">
-  <img src="images/confusion_matrix.jpg" width="400"/>
+  <img src="images/confusion_matrix.png" width="400"/>
 </p>
 
 ---
@@ -168,7 +168,7 @@ These results demonstrate strong discriminative ability while maintaining **high
 ### 📈 ROC Curve
 
 <p align="center">
-  <img src="images/roc_curve.jpg" width="400"/>
+  <img src="images/roc_curve.png" width="400"/>
 </p>
 
 ---
